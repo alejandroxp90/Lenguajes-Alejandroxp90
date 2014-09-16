@@ -16,7 +16,7 @@ public class ProyectoAlejandroxp90 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-  System.out.println("Mi primer Programa Alejandroxp90");
+  System.out.println("Mi primer Programa Alejandroxp90 Bien");
     }
     
 }
