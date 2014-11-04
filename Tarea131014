@@ -1,0 +1,31 @@
+/** 
+* 
+* @author Alejandro Juarez
+*/ 
+public class NewMain { 
+
+ 
+/** 
+* @param args the command line arguments 
+*/ 
+
+
+public static void main(String[] args) { 
+ // TODO code application logic here 
+       byte b =127; 
+       byte b2 =-128; 
+ //byte b3=128; 
+ 
+// float x=5.5; 
+float x1 = 3.5f; 
+double x2 = 6; 
+double x3=5.5; 
+        
+                 
+char f= 2; 
+     boolean x= true; 
+        
+        
+    } 
+     
+ } 
