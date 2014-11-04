@@ -10,7 +10,7 @@ package Areas;
  * @author Alejandro
  */
 public class Cuadrado implements Superficies {
-int lado;
+private int lado;
 public Cuadrado(int lado) {
 this.lado = lado;
 }
@@ -21,4 +21,12 @@ return area;
 public int calcularPerimetro(){
 return 7;
 }
+
+    public int getLado() {
+        return lado;
+    }
+
+    public void setLado(int lado) {
+        this.lado = lado;
+    }
 }
