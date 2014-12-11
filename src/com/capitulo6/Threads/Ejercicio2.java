@@ -19,7 +19,7 @@ public class Ejercicio2 {
         public void run(){
             while(true){
                  try{
-                  Thread.sleep(2000);
+                  Thread.sleep(3000);
                   System.out.println("Soy un thread");
 }catch(InterruptedException e){}
 }

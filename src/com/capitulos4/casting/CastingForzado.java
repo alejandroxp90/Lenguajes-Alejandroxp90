@@ -17,19 +17,21 @@ public class CastingForzado {
         int o = 2;
         long p = 2;
         
-        m = (byte)p;
+        p = (int)o;
         m =(byte)o;
         p = m;
         n = (short)p;
         p = o;
         o = n;
         o = (int)p;
-        n = m;
+        n = n;
         n = (byte)o;
         o = m;
         
-        
-               
+               System.out.println(m);   
+               System.out.println(n); 
+               System.out.println(o); 
+               System.out.println(p);  
         
     }
     

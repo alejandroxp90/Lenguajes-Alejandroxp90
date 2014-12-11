@@ -17,7 +17,7 @@ public class ThreadNombre {
     public static void main(String[] args) {
      Thread t1=new Thread(new Runnable(){
             public void run(){
-            while(true){
+             while(true){
         try{
           Thread.sleep(1000 );
             System.out.println("hola me llamo:"+Thread.currentThread().getName());
